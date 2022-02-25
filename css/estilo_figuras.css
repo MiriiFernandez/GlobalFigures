@@ -137,27 +137,82 @@ html,body {
   overflow: hidden;
 }
 
-.inner img {
-  transition: all 1.5s ease;
-}
-
-.inner:hover img{
-  transform: scale(1.5);
-}
-
 .card-text{
   font-size: 17px;
 	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing: .2rem;
+	letter-spacing: .1rem;
 	text-shadow: .1rem .1rem .3rem red;
 	margin-top: 25px;
   box-sizing: border-box;
 }
 
+/* Estilo navbar vertical */
 .navbar_vertical li {
   padding-top: 8px;
+  display: inline-block;
 }
+
+#Marvel {
+  width: 200px;
+  height: 40px;
+  background: #3a3c4a;
+  text-align: center;
+  color: white;
+  border: 2px solid;
+  border-radius: 50px 20px;
+}
+
+#DC {
+  width: 200px;
+  height: 40px;
+  background: #3a3c4a;
+  text-align: center;
+  color: white;
+  border: 2px solid;
+  border-radius: 50px 20px;
+}
+
+#Comida {
+  width: 200px;
+  height: 40px;
+  background: #3a3c4a;
+  text-align: center;
+  color: white;
+  border: 2px solid;
+  border-radius: 50px 20px;
+}
+
+#Vehiculos {
+  width: 200px;
+  height: 40px;
+  background: #3a3c4a;
+  text-align: center;
+  color: white;
+  border: 2px solid;
+  border-radius: 50px 20px;
+}
+
+#Personaje {
+  width: 200px;
+  height: 40px;
+  background: #3a3c4a;
+  text-align: center;
+  color: white;
+  border: 2px solid;
+  border-radius: 50px 20px;
+}
+
+#Dragon_Ball {
+  width: 200px;
+  height: 40px;
+  background: #3a3c4a;
+  text-align: center;
+  color: white;
+  border: 2px solid;
+  border-radius: 50px 20px;
+}
+
 
 
 
