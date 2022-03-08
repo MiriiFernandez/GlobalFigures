@@ -83,6 +83,7 @@ input:focus {
 
 .btn2 {
     padding: 10px;
+    margin-top: 15px;
     outline: none;
     width: 150px;
     border-radius: 20px;
@@ -90,12 +91,34 @@ input:focus {
     background-color: rgb(131, 28, 28);
     color: whitesmoke;
     font-weight: 600;
+    text-decoration: none;
+    text-align: center;
 }
 
 .btn2:hover {
     background-color: rgb(94, 3, 3);
+    text-decoration: none;
+    text-align: center;
 }
 
 .btn button:hover {
     border-bottom: 2px solid rgb(94, 3, 3);
+}
+
+.checkBox {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 15px;
+}
+
+.iniciaSesion {
+    display: none;
+}
+
+.LogIn {
+    margin-top: 40px;
+}
+
+.LogIn .checkBox {
+    margin-top: 40px;
 }
