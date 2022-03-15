@@ -90,37 +90,38 @@ body {
 	font-size: 35px;
 }
 
-/*Jumbotron */
-/*.jumbotron {
-	background-color: rgba(214, 214, 214, 0.644);
-	padding-top: 50px;
+/* Seccion 2 */
+.section-2 .container-fluid {
+	background-image: url('/img/comic.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	filter: brightness(50%);
 }
 
-.jumbotron h1{
-	font-size: 45px;
+.section-2 .heading-1{
+	font-size: 3.3rem;
+	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: .3rem;
+	color: white;
 	margin-top: 25px;
-}
-*/
-.imagen_vende{
-	margin-left: 80px;
+	filter: brightness(100%);
 }
 
-.container_vende {
-	background-color: rgba(243, 237, 237, 0.801);
+.section-2 .para {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
 }
 
-.titulo_vende{
-	font-size: 45px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin-top: 25px;
+/*Modelo 3D Imagen */
+.scene,
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
-
-
-
-
 
 
 
