@@ -103,24 +103,55 @@
 		<div class="d-flex justify-content-end">
 			<div class="d-flex flex-column m-4">
 				<h1 class="heading-1">Vende tus modelos</h1>
-				<p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi modi</p>
+				<p class="para">Únete a nuestra familia y saca beneficio de tus propios modelos </p>
 			</div>
-			<div class="scene">
-				<script src="/app.js"></script>
-				<script src="/GLTFLoader.js"></script>
-				<script src="/three.min.js"></script>
+			<div class="modelo_dragon">
+				<img src="/img/dragon.png" alt="" class="dragon">
 			</div>
 		</div>
 	</div>
-	</div>
+</div>
 
-	
+<!--FOOTER INICIO-->
+<footer>
+	<div class="section-5 text-center">
+		<h4 style="margin-top:5%;">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</h4>
+		<br>
+		<div class="form-inline justify-content-center">
+			<input type="text" name="Email" id="email" placeholder="Email" size="40" class="form-control px-4 py-2" style="width: 20%; position: absolute; left: 40%; ">
+			<input type="button" value="Contactar" class="btn btn-danger mt-30" style="position: absolute; bottom: 7,5%; left: 62%;">
+		</div>
+
+
+		<div class="social" style="margin:5%;">
+			<div class="d-flex flex-row justify-content-center">
+				<i class="bi bi-facebook m-2"></i>
+				<i class="bi bi-twitter m-2"></i>
+				<i class="bi bi-instagram m-2"></i>
+				<i class="bi bi-youtube m-2"></i>
+			</div>
+		</div>
+
+		<hr>
+	</div>
+</footer>
 	
 	
 	
 	
 	<!--Scripts-->
-	<script src="js/bootstrap.bundle.min.js"></script> 	
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="/app.js"></script> 	
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 	
+	<script>
+		window.sr = ScrollReveal({ duration : 1000 });
+		sr.reveal('.site-content d-flex');
+		sr.reveal('.services .card');
+		sr.reveal('section-2 .d-flex');
+		sr.reveal('.section-5 ');
+	</script>
+
 </body>
 </html>
