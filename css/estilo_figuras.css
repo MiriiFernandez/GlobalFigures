@@ -4,6 +4,7 @@
 html,body {
 	margin: 0 auto;
   padding: 0 20px;
+  background-color: #ccd0d1;
 }
 .section-padding {
 	padding: 100px 0;
@@ -56,7 +57,7 @@ html,body {
   display: grid;
   grid-row-gap: 15px;
   padding-bottom: 10px;
-  padding-top: 65px;
+  padding-top: 85px;
 }
 
 .card-disney {
@@ -132,6 +133,7 @@ html,body {
   align-items: center;
   width: 280px;
   box-sizing: border-box;
+  padding-left: 85px;
 }
 
 .card {
