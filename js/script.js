@@ -17,3 +17,10 @@ $('.registrarseBtn').click(function(){
     /* Eliminar borde bottom despues del click */
     $('.LoginBtn').css({'border-style' : 'none'});
 });
+
+/*LOADER PAGINA JS */
+window.onload = function() {
+    $('#loader').fadeOut();
+    $('body').removeClass('hidden')
+}
+

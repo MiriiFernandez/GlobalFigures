@@ -130,6 +130,15 @@ body {
 	font-size: 20px;
 }
 
+.logo_footer {
+	position: absolute;
+	left: 50px;
+	top: 1960px;
+	width: 50%;
+	display: block;
+	
+}
+
 
 
 
