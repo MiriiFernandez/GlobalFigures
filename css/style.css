@@ -171,6 +171,27 @@ body {
 		padding-top: 15px;
 	}
 
+	.section-2 .heading-1{
+		font-size: 2.3rem;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: .3rem;
+		text-shadow: .1rem .1rem .3rem rgb(255, 246, 246);
+		margin-top: 25px;
+	}
+
+	.section-2 .para {
+		margin: auto;
+		font-size: 1.2rem;
+		line-height: 1.9;
+		color: white;
+	}
+
+	.modelo_dragon {
+		filter: brightness(75%);
+	
+	}
+
 }
 @media only screen and (max-width: 767px) {
 	.navbar-nav {
