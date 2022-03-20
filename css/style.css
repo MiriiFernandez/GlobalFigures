@@ -93,7 +93,7 @@ body {
 
 /* Seccion 2 */
 .section-2 {
-	background-image: url('/img/comic.jpg');
+	background-image: url('../img/comic.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 }
