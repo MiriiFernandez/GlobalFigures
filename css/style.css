@@ -201,6 +201,15 @@ body {
 	
 	}
 
+	.logo_footer {
+		position: absolute;
+		left: 15px;
+		top: 2450px;
+		width: 50%;
+		display: block;
+		
+	}
+
 }
 @media only screen and (max-width: 767px) {
 	.navbar-nav {
