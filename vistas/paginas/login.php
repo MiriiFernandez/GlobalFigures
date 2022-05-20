@@ -41,7 +41,7 @@
                         ESTOY DE ACUERDO CON LOS TERMINOS Y CONDICIONES</span>
                 </div>
                 <div class="formGroup">
-                    <a href="./index.html" class="btn2">Unirme</a>
+                    <a href="../plantilla.php" class="btn2">Unirme</a>
                 </div>
             </form>
 

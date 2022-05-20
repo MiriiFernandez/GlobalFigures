@@ -69,7 +69,7 @@
     <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleSlidesOnly">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img alt="..." class="d-block w-100" src="./img/comic.jpg">
+                <img alt="..." class="d-block w-100" src="../img/comic.jpg">
                 <div class="carousel-caption">
                     <h5>Busca miles de modelos 3D a la venta!</h5>
                     <p>Encuentre el contenido 3D exacto para sus necesidades, incluyendo AR/VR, juegos, publicidad, entretenimiento e impresión 3D.</p>
@@ -131,7 +131,7 @@
                         <p class="para">Vende tus modelos 3D y encuentra proyectos freelance </p>
                     </div>
                     <div class="modelo_dragon">
-                        <img src="./img/dragon.png" alt="" class="dragon">
+                        <img src="../img/dragon.png" alt="" class="dragon">
                     </div>
                 </div>
             </div>
@@ -146,7 +146,7 @@
                     <input type="text" name="Email" id="email" placeholder="Email" size="40" class="form-control px-4 py-2" style="width: 20%; position: absolute; left: 40%; ">
                     <input type="button" value="Contactar" class="btn btn-danger mt-30" style="position: absolute; bottom: 7,5%; left: 62%;">
                     <div class="logo_footer">
-                        <img src="./img/Logo_11.png" width="310px" alt="">
+                        <img src="../img/Logo_11.png" width="310px" alt="">
                     </div>
                 </div>
 

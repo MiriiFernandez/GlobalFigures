@@ -17,7 +17,7 @@
     <!--INICIO NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="./index.html">
+            <a class="navbar-brand" href="/index.php">
                 <img src="./img/img_figuras/banner.png" alt="">
             </a>
             <div class="collapse navbar-collapse">
@@ -29,7 +29,7 @@
                         <a class="nav-link" href="./figuras.html"> Modelos 3D</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn-danger ms-4" href="./login.html">Iniciar Sesión</a>
+                        <a class="nav-link btn-danger ms-4" href="./login.php">Iniciar Sesión</a>
                     </li>
                 </ul>
             </div>
