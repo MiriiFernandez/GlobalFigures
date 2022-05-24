@@ -10,7 +10,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
-    <link href="./css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target="#navbarSupportedContent">
@@ -26,7 +26,7 @@
                         <a class="nav-link" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./figuras.html"> Modelos 3D</a>
+                        <a class="nav-link" href="./figuras.php"> Modelos 3D</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn-danger ms-4" href="./login.php">Iniciar Sesión</a>

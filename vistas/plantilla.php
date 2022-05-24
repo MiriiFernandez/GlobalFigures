@@ -17,7 +17,7 @@
     <!--INICIO NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="./index.html">
+            <a class="navbar-brand" href="./paginas/home.php">
                 <img src="./img/img_figuras/banner.png" alt="">
             </a>
             <div class="collapse navbar-collapse">
@@ -49,7 +49,7 @@
                                 break;
 
                             case 'figuras':
-                                include('./vistas/paginas/figuras.php');
+                                include('../vistas/paginas/figuras.php');
                                 break;
 
                             case 'login':
