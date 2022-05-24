@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="./paginas/home.php">
-                <img src="./img/img_figuras/banner.png" alt="">
+                <img src="../img/comic.jpg" alt="">
             </a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -30,10 +30,10 @@
 						<a class="nav-link" href="#">Inicio</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./paginas/figuras.php"> Modelos 3D</a>
+						<a class="nav-link" href="../paginas/figuras.php"> Modelos 3D</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link btn-danger ms-4" href="./paginas/login.php">Iniciar Sesión</a>
+						<a class="nav-link btn-danger ms-4" href="../paginas/login.php">Iniciar Sesión</a>
 					</li>
                         ';
                     }
@@ -45,7 +45,7 @@
                         switch ($_GET["paginas"]) {
                             case 'home':
 
-                                include('./vistas/paginas/home.php');
+                                include('../vistas/paginas/home.php');
                                 break;
 
                             case 'figuras':
@@ -53,7 +53,7 @@
                                 break;
 
                             case 'login':
-                                include('./vistas/paginas/login.php');
+                                include('../vistas/paginas/login.php');
                                 break;
                         }
                     }
@@ -69,7 +69,7 @@
     <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleSlidesOnly">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img alt="..." class="d-block w-100" src="../img/comic.jpg">
+                <img alt="..." class="d-block w-100" src="./img/comic.jpg">
                 <div class="carousel-caption">
                     <h5>Busca miles de modelos 3D a la venta!</h5>
                     <p>Encuentre el contenido 3D exacto para sus necesidades, incluyendo AR/VR, juegos, publicidad, entretenimiento e impresión 3D.</p>
@@ -167,7 +167,7 @@
 
 
         <!--Scripts-->
-        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
         <script src="./app.js"></script>
         <script src="https://unpkg.com/scrollreveal"></script>
         <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
