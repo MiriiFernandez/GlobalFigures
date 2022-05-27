@@ -1,40 +1,42 @@
 <?php
 
-class ControladorLogin {
+class ControladorLogin
+{
 
-    public function iniciarSesion(){
+    public function iniciarSesion()
+    {
 
-        if(isset($_POST["email"])){
-            
+        if (isset($_POST["Email"])) {
+
             //1) GET DATOS
             $datos = [
-                "email" => $_POST["email"],
-                "password" => $_POST["password"]
+                "Email" => $_POST["Email"],
+                "contraseña" => $_POST["contraseña"]
             ];
 
             //2) VALIDAR Y ENVIAR AL MODELO DE USUARIOS
-            if($datos["email"] != null && $datos["password"] != null){
+            if ($datos["Email"] != null && $datos["contraseña"] != null) {
 
-                $password_encrypted = hash('sha256', $datos["password"]);
-                $datos["password"] = $password_encrypted; //password encriptada
+                $password_encrypted = hash('sha256', $datos["contraseña"]);
+                $datos["contraseña"] = $password_encrypted; //password encriptada
 
                 $modeloUsuario = new UsuarioModelo();
                 $usuario = $modeloUsuario->select($datos); //usuario
 
-                if($usuario != false){
+                if ($usuario != false) {
 
                     //print_r($usuario); //PINTAR POR PANTALLA
 
                     $_SESSION["usuarioActivo"] = $usuario;
 
                     return true;
-                }else{
+                } else {
 
                     echo "ERROR DE INICIO.";
 
                     return false;
                 }
-            }else{
+            } else {
 
                 //MENSAJE DE ERROR
 

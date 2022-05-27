@@ -22,18 +22,16 @@
             </a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./vistas/paginas/figuras.php"> Modelos 3D</a>
+                    </li>
+
 
                     <?php
                     if (isset($_SESSION["usuarioActivo"]) == false) {
                         echo '
-                        <li class="nav-item">
-						<a class="nav-link" href="#">Inicio</a>
-					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="../paginas/figuras.php"> Modelos 3D</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link btn-danger ms-4" href="../paginas/login.php">Iniciar Sesión</a>
+						<a class="nav-link btn-danger ms-4" href="./vistas/paginas/login.php">Iniciar Sesión</a>
 					</li>
                         ';
                     }
@@ -48,7 +46,7 @@
                                 include('../vistas/paginas/home.php');
                                 break;
 
-                            case 'figuras':
+                            case 'MODELOS 3D':
                                 include('../vistas/paginas/figuras.php');
                                 break;
 
@@ -131,7 +129,7 @@
                         <p class="para">Vende tus modelos 3D y encuentra proyectos freelance </p>
                     </div>
                     <div class="modelo_dragon">
-                        <img src="../img/dragon.png" alt="" class="dragon">
+                        <img src="./img/dragon.png" alt="" class="dragon">
                     </div>
                 </div>
             </div>
@@ -146,7 +144,7 @@
                     <input type="text" name="Email" id="email" placeholder="Email" size="40" class="form-control px-4 py-2" style="width: 20%; position: absolute; left: 40%; ">
                     <input type="button" value="Contactar" class="btn btn-danger mt-30" style="position: absolute; bottom: 7,5%; left: 62%;">
                     <div class="logo_footer">
-                        <img src="../img/Logo_11.png" width="310px" alt="">
+                        <img src="./img/Logo_11.png" width="310px" alt="">
                     </div>
                 </div>
 

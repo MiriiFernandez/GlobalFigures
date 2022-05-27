@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página Log in</title>
     <!--CSS Link-->
-    <link rel="stylesheet" href="./css/login.css" />
+    <link rel="stylesheet" href="../../css/login.css" />
     <!--Agregar link JQuery para enseñar/esconder Form -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
@@ -23,10 +23,10 @@
             </div>
             <form action="" class="iniciaSesion">
                 <div class="formGroup">
-                    <input type="text" name="Nombre" id="nombre_usuario" placeholder="Nombre Usuario" autocomplete="off" />
+                    <input type="text" name="Nombre" id="nombre" placeholder="Nombre Usuario" autocomplete="off" />
                 </div>
                 <div class="formGroup">
-                    <input type="email" name="Email" id="Email ID" placeholder="Email" autocomplete="off" />
+                    <input type="email" name="Email" id="Email" placeholder="Email" autocomplete="off" />
                 </div>
                 <div class="formGroup">
                     <input type="password" name="contraseña" id="contraseña" placeholder="contraseña" autocomplete="off" />
@@ -41,7 +41,7 @@
                         ESTOY DE ACUERDO CON LOS TERMINOS Y CONDICIONES</span>
                 </div>
                 <div class="formGroup">
-                    <a href="../plantilla.php" class="btn2">Unirme</a>
+                    <a href="../../index.php" class="btn2">Unirme</a>
                 </div>
             </form>
 
@@ -60,17 +60,23 @@
                         MANTENDEME INFORMADO DE NUEVOS PRODUCTOS POR EMAIL</span>
                 </div>
                 <div class="formGroup">
-                    <a href="../plantilla.php" class="btn2">Iniciar Sesión</a>
+                    <a href="../../index.php" class="btn2">Iniciar Sesión</a>
                 </div>
             </form>
         </div>
     </div>
 
     <!--Link javscript-->
-    <script src="./js/script.js"></script>
+    <script src="../../js/script.js"></script>
     <?php
     $ctrRegistro = new ControladorRegistro();
     $ctrRegistro->registrarse();
+
+    if ($inicio) {
+        echo '  <script>
+                    window.location = "./home";
+                </script>';
+    }
 
     ?>
 
